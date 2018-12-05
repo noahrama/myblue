@@ -129,7 +129,7 @@ highlight! link htmlH1        htmlTitle
 
 highlight NERDTreeOpenable guifg=white
 
-" highlight! link shFor shCommandSub
+highlight! link shOperator shDeref
 " highlight! shOption             guifg=#c1c9d4  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 
 
