@@ -130,7 +130,7 @@ highlight! link htmlH1        htmlTitle
 highlight NERDTreeOpenable guifg=white
 
 highlight! link shOperator shDeref
-highlight! link shQuote shFor
+highlight! link shQuote Special
 highlight! link shDoubleQuote Statement
 highlight! link shSingleQuote Statement
 highlight! link shEcho shFor
