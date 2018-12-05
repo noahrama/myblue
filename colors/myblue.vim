@@ -130,9 +130,9 @@ highlight! link htmlH1        htmlTitle
 highlight NERDTreeOpenable guifg=white
 
 highlight! link shOperator shDeref
-highlight! link shQuote shStatement
-highlight! link shDoubleQuote shFor
-highlight! link shSingleQuote shFor
+highlight! link shQuote shFor
+highlight! link shDoubleQuote shStatement
+highlight! link shSingleQuote shStatement
 highlight! link shEcho shFor
 highlight! link shTestOpr shFor
 " highlight! shOption             guifg=#c1c9d4  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
