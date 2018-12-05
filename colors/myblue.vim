@@ -131,10 +131,11 @@ highlight NERDTreeOpenable guifg=white
 
 highlight! link shOperator shDeref
 highlight! link shQuote shFor
-highlight! link shDoubleQuote shStatement
-highlight! link shSingleQuote shStatement
+highlight! link shDoubleQuote Statement
+highlight! link shSingleQuote Statement
 highlight! link shEcho shFor
 highlight! link shTestOpr shFor
+highlight! link shStatement shFor
 " highlight! shOption             guifg=#c1c9d4  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 
 
