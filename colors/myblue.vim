@@ -139,6 +139,7 @@ highlight! link shOption shFor
 highlight! link shConditional shNumber
 highlight! link shCommandSub shFor
 highlight! link shStatement Special
+highlight! link shRange Delimiter
 " highlight! shOption             guifg=#c1c9d4  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 
 
