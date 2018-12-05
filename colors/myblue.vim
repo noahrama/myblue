@@ -129,6 +129,9 @@ highlight! link htmlH1        htmlTitle
 
 highlight NERDTreeOpenable guifg=white
 
+highlight! link shFor shCommandSub
+highlight! clear shOption
+
 
 
 " highlight! DiffText               guifg=#4f426a  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
