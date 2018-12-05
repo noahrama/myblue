@@ -136,7 +136,8 @@ highlight! link shSingleQuote Statement
 highlight! link shEcho shFor
 highlight! link shTestOpr shFor
 highlight! link shOption shFor
-highlight! link shStatement shCommandSub
+highlight! link shCommandSub shFor
+highlight! link shStatement Special
 " highlight! shOption             guifg=#c1c9d4  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 
 
