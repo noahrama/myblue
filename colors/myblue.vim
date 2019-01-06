@@ -58,6 +58,8 @@ highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       c
 highlight! FoldColumn             guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
+highlight! MatchParen                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+
 highlight! Search                 guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
 " highlight! IncSearch              guifg=black  guibg=yellow     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
 highlight! link IncSearch Visual              
