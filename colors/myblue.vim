@@ -58,7 +58,7 @@ highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       c
 highlight! FoldColumn             guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
-highlight! MatchParen                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! MatchParen                 guifg=red  guibg=#ffe560  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 highlight! Search                 guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
 " highlight! IncSearch              guifg=black  guibg=yellow     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
@@ -111,7 +111,7 @@ highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    c
 highlight! DiffChange             guifg=#4a5365  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
 highlight! link DiffText Search              
 
-highlight! link MatchParen StatusLineNC              
+" highlight! link MatchParen StatusLineNC              
 highlight! htmlTitle              guifg=#f8e7b7  guibg=NONE     gui=Bold    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlString             guifg=#c1c9d4  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
 " highlight! htmlString             guifg=#aaa2bc  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
