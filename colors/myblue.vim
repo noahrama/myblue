@@ -58,9 +58,12 @@ highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       c
 highlight! FoldColumn             guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
-highlight! MatchParen                 guifg=red  guibg=#ffe560  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! MatchParen                 guifg=white  guibg=#ff475e  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 highlight! Search                 guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
+" highlight! Search                 guifg=#2b3240  guibg=#f1f1f1     gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! QuickFixLine           guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
+
 " highlight! IncSearch              guifg=black  guibg=yellow     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
 highlight! link IncSearch Visual              
 
@@ -69,7 +72,7 @@ highlight! link VertSplit StatusLine
 " highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
 " highlight! StatusLineNC           guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=230   ctermbg=008   cterm=NONE
 
-highlight! Visual                 guifg=Red  guibg=#e5c98d     gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! Visual                 guifg=#2b3240  guibg=white      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#bc284f  guibg=NONE     gui=NONE       ctermfg=1     ctermbg=NONE  cterm=reverse
@@ -142,6 +145,10 @@ highlight! link shConditional shNumber
 highlight! link shCommandSub shFor
 highlight! link shStatement Special
 highlight! link shRange Delimiter
+
+highlight! link flutterWidget Identifier
+
+
 " highlight! shOption             guifg=#c1c9d4  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 
 
