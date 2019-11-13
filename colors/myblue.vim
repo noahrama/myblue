@@ -74,6 +74,7 @@ highlight! link VertSplit StatusLine
 
 highlight! Visual                 guifg=#2b3240  guibg=white      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
+
 highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#bc284f  guibg=NONE     gui=NONE       ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! WarningMsg             guifg=white    guibg=#ff0000  gui=bold       ctermfg=1     ctermbg=NONE  cterm=reverse
@@ -108,6 +109,10 @@ highlight! Directory guifg=#7382b4  guibg=NONE     gui=NONE       ctermfg=4     
 highlight! Pmenu          guifg=#e8d09e  guibg=#52586c  gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! PmenuSel       guifg=#9ec5e8  guibg=#52586c  gui=reverse       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! PmenuSbar      guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
+hi SignColumn guibg=#2b3240
+
+" highlight YcmWarningLine guibg=#3f0000
+
 
 
 highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
