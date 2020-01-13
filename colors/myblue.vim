@@ -39,23 +39,28 @@ endif
 
 let g:colors_name="myblue"
 
-highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
+" highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
+highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 highlight! ColorColumn            guifg=#c1c9d4  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
+" highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! TabLineFill            guifg=NONE     guibg=#000000  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline
 
-highlight! LineNr                 guifg=#4a5265  guibg=#2b3240  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
-highlight! CursorLineNr           guifg=#ffe560   guibg=#2b3240  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
-highlight! CursorLine             guifg=NONE     guibg=#32394a  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
+highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
+" highlight! CursorLineNr           guifg=#ffe560   guibg=#2b3240  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
+highlight! CursorLineNr           guifg=#ffe560   guibg=#222730  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
+highlight! CursorLine             guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 " highlight! CursorColumn           guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 
 highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! WildMenu               guifg=#393939  guibg=white  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
 
-highlight! FoldColumn             guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+" highlight! FoldColumn             guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! FoldColumn             guifg=NONE     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 highlight! MatchParen                 guifg=white  guibg=#ff475e  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
@@ -80,7 +85,9 @@ highlight! Error                  guifg=#bc284f  guibg=NONE     gui=NONE       c
 highlight! WarningMsg             guifg=white    guibg=#ff0000  gui=bold       ctermfg=1     ctermbg=NONE  cterm=reverse
 
 highlight! Type                   guifg=#b8c5d8  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
-highlight! Statement              guifg=#6690ac  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
+" highlight! Statement              guifg=#6690ac  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
+highlight! Statement              guifg=#89a9bf  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
+" highlight! PreProc                guifg=#c8a9ea  guibg=NONE     gui=NONE       ctermfg=110   ctermbg=NONE  cterm=NONE
 highlight! PreProc                guifg=#c8a9ea  guibg=NONE     gui=NONE       ctermfg=110   ctermbg=NONE  cterm=NONE
 highlight! Identifier             guifg=#c8a9ea  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
@@ -89,8 +96,10 @@ highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       c
 " highlight! Number                 guifg=#3f7ea9  guibg=NONE     gui=NONE       ctermfg=231   ctermbg=NONE  cterm=NONE
 highlight! Number                 guifg=#80abc9  guibg=NONE     gui=NONE       ctermfg=231   ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#86aab5  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-" highlight! Comment                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Comment                guifg=#6d7485  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+" highlight! Comment                guifg=#8c95ab  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+" highlight! Comment                guifg=#ffe560  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+highlight! Constant               guifg=#deade6  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
 highlight! SpecialComment         guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=reverse
 highlight! SpellBad               guifg=#bc284f  guibg=NONE     gui=NONE       ctermfg=1     ctermbg=NONE  cterm=undercurl
@@ -130,6 +139,8 @@ highlight! htmlTag                guifg=#e1a4cb  guibg=NONE     gui=NONE    cter
 highlight! htmlLink               guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlStyleArg           guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlStrike             guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
+highlight! htmlCommentPart                guifg=#6d7485  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+highlight! shComment                guifg=#6d7485  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 
 " div/head/body
 highlight htmlStatement            guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
