@@ -41,6 +41,7 @@ let g:colors_name="myblue"
 
 " highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
+" %s/1f2633/222730/g
 highlight! ColorColumn            guifg=#c1c9d4  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
 " highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
@@ -62,7 +63,7 @@ highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       c
 " highlight! FoldColumn             guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 " highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! Folded                 guifg=#e0e0e0  guibg=#343b4d  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! Folded                 guifg=#e8e8e8  guibg=#343b4d  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 highlight! MatchParen                 guifg=white  guibg=#ff475e  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
