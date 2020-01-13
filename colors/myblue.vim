@@ -60,8 +60,9 @@ highlight! WildMenu               guifg=#393939  guibg=white  gui=BOLD       cte
 highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
 
 " highlight! FoldColumn             guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! FoldColumn             guifg=NONE     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+" highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! Folded                 guifg=#e0e0e0  guibg=#343b4d  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 highlight! MatchParen                 guifg=white  guibg=#ff475e  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
@@ -106,7 +107,8 @@ highlight! SpellBad               guifg=#bc284f  guibg=NONE     gui=NONE       c
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
 
-highlight! MRUfilename            guifg=#f8e7b7  guibg=NONE     gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
+" highlight! MRUfilename            guifg=#f8e7b7  guibg=NONE     gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
+highlight! MRUfilename            guifg=#fbf4c6  guibg=NONE     gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! link Title MRUfilename
 highlight! link SpecialKey Number
 highlight! link NonText Comment
@@ -135,6 +137,7 @@ highlight! htmlString             guifg=#c1c9d4  guibg=NONE     gui=NONE    cter
 highlight! htmlArg                guifg=#c8a9ea  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlName               guifg=#e1a4cb  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlTag                guifg=#e1a4cb  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
+highlight! link htmlName MRUfilename               
 " highlight! htmlValue            guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlLink               guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlStyleArg           guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
