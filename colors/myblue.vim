@@ -65,7 +65,9 @@ highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE     
 " highlight! Folded                 guifg=white  guibg=#4a5265  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! Folded                 guifg=#e8e8e8  guibg=#343b4d  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
-highlight! MatchParen                 guifg=white  guibg=#ff475e  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! MatchParen                 guifg=white guibg=grey  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! Cursor                     guifg=red  guibg=white  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+" highlight! MatchParen                 guifg=red  guibg=white  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 highlight! Search                 guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
 " highlight! Search                 guifg=#2b3240  guibg=#f1f1f1     gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
@@ -165,6 +167,10 @@ highlight! link shConditional shNumber
 highlight! link shCommandSub shFor
 highlight! link shStatement Special
 highlight! link shRange Delimiter
+
+highlight! link javaScriptBraces Delimiter
+highlight! link javaScriptParens Delimiter
+
 
 highlight! link flutterWidget Identifier
 
