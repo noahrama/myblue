@@ -81,7 +81,7 @@ highlight! link VertSplit StatusLine
 " highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
 " highlight! StatusLineNC           guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=230   ctermbg=008   cterm=NONE
 
-highlight! Visual                 guifg=#2b3240  guibg=white      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! Visual                 guifg=#b430c1  guibg=#d5d1da      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 
 highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
