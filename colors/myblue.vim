@@ -167,6 +167,11 @@ highlight! link shConditional shNumber
 highlight! link shCommandSub shFor
 highlight! link shStatement Special
 highlight! link shRange Delimiter
+highlight! link shHereDoc Special
+highlight! link shString shDeref
+highlight! link zshString shDeref
+highlight! link shBracket Delimiter
+highlight! link zshBracket Delimiter
 
 "white
 highlight! link javaScriptBraces Delimiter
