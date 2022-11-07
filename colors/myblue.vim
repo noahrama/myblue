@@ -191,7 +191,7 @@ highlight! link jsObjectProp htmlString
 highlight! link flutterWidget Identifier
 
 " highlight! link TelescopeMatching CursorLineNr
-highlight! TelescopeSelection                 guifg=red  guibg=#52586c      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! TelescopeSelection                 guifg=red  guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 " highlight! link TelescopeSelection Statusline
 " highlight! TelescopeSelection                 guifg=#ffe560  guibg=#52586c      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
