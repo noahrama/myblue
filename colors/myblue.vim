@@ -190,7 +190,8 @@ highlight! link jsObjectProp htmlString
 
 highlight! link flutterWidget Identifier
 
-highlight! link TelescopeMatching MRUfilename
+highlight! link TelescopeMatching CursorLineNr
+highlight! link TelescopeSelection Statusline
 
 " highlight! shOption             guifg=#c1c9d4  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 
