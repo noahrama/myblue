@@ -37,7 +37,7 @@ endif
 
 
 
-let g:colors_name=
+let g:colors_name="myblue"
 
 
 highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
@@ -189,7 +189,7 @@ highlight! link flutterWidget Identifier
 
 
 highlight! TelescopeSelection                 guifg=#ff475e  guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-highlight! TelescopeNormal                    guifg=#6d7485  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! TelescopeNormal                    guifg=#fbf4c6  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 
 
