@@ -189,8 +189,8 @@ highlight! link flutterWidget Identifier
 
 
 highlight! TelescopeSelection                 guifg=#ff475e  guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-highlight! TelescopeMatching                  guifg=#fff     guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-highlight! TelescopeMatchingSelection         guifg=#ff475e     guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+" highlight! TelescopeMatching                  guifg=#fff     guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+" highlight! TelescopeMatchingSelection         guifg=#ff475e     guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! TelescopeResultsNormal             guifg=#6d7485  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 
