@@ -192,6 +192,7 @@ highlight! link flutterWidget Identifier
 
 " highlight! link TelescopeMatching CursorLineNr
 highlight! TelescopeSelection                 guifg=#ff475e  guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! TelescopeNormal                    guifg=#393939  guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 " highlight! link TelescopeSelection Statusline
 " highlight! TelescopeSelection                 guifg=#ffe560  guibg=#52586c      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
