@@ -192,7 +192,7 @@ highlight! TelescopeSelection                 guifg=#ff475e  guibg=#343b4d      
 " highlight! TelescopeMatchingSelection         guifg=#ff475e     guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! TelescopeResultsNormal             guifg=#6d7485  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
-" highlight! DiagnosticError                 guifg=#ff475e  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! DiagnosticVirtualTextError                 guifg=#ff475e  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! DiagnosticSignError                 guifg=#ff475e  guibg=#424757      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! DiagnosticLineNrError                 guifg=#ff475e  guibg=#c1c9d4      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
