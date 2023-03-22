@@ -92,7 +92,9 @@ highlight! PreProc                guifg=#c8a9ea  guibg=NONE     gui=NONE       c
 highlight! Identifier             guifg=#c8a9ea  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=reverse
-highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
+" highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
+" highlight! String                 guifg=#9494b3  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
+highlight! String                 guifg=#7c97b9  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
 
 highlight! Number                 guifg=#80abc9  guibg=NONE     gui=NONE       ctermfg=231   ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#86aab5  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
@@ -150,12 +152,12 @@ highlight htmlStatement            guifg=#f8e7b7  guibg=NONE     gui=none    cte
 highlight! link htmlH1        htmlTitle
 
 
-highlight NERDTreeOpenable guifg=white
+" highlight NERDTreeOpenable guifg=white
 
-highlight! link shOperator shDeref
-highlight! link shQuote Special
-highlight! link shDoubleQuote Statement
-highlight! link shSingleQuote Statement
+" highlight! link shOperator shDeref
+" highlight! link shQuote Special
+" highlight! link shDoubleQuote Statement
+" highlight! link shSingleQuote Statement
 highlight! link shEcho shFor
 highlight! link shTestOpr shFor
 highlight! link shOption shFor
@@ -163,11 +165,11 @@ highlight! link shConditional shNumber
 highlight! link shCommandSub shFor
 highlight! link shStatement Special
 highlight! link shRange Delimiter
-highlight! link shHereDoc Special
 highlight! link shString shDeref
 highlight! link zshString shDeref
 highlight! link shBracket Delimiter
 highlight! link zshBracket Delimiter
+highlight! link shHereDoc Special
 
 
 highlight! link javaScriptBraces Delimiter
