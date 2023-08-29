@@ -74,6 +74,12 @@ highlight! link IncSearch Visual
 
 highlight! link VertSplit StatusLine
 
+highlight! TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
+highlight! TabLine ctermfg=Blue ctermbg=Yellow
+highlight! TabLineSel ctermfg=Red ctermbg=Yellow
+highlight! Title ctermfg=LightBlue ctermbg=Magenta
+
+
 
 
 
@@ -136,15 +142,16 @@ highlight! htmlTitle              guifg=#f8e7b7  guibg=NONE     gui=Bold    cter
 highlight! htmlString             guifg=#c1c9d4  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
 
 highlight! htmlArg                guifg=#c8a9ea  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
+highlight! htmlAtr               guifg=#c8a9ea  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlName               guifg=#e1a4cb  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlTag                guifg=#e1a4cb  guibg=NONE     gui=NONE    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! link htmlName MRUfilename               
 
 highlight! htmlLink               guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
-highlight! htmlStyleArg           guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlStrike             guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! htmlCommentPart                guifg=#6d7485  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! shComment                guifg=#6d7485  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+
 
 
 highlight htmlStatement            guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
