@@ -76,7 +76,7 @@ highlight! link VertSplit StatusLine
 
 " highlight! BufferCurrent guibg=#4a5265
 " highlight! BufferCurrentIndex guifg=#ffe560 guibg=#8c98a7
-highlight! BufferCurrentIndex guifg=#ffe560 guibg=#c1c9d4
+highlight! BufferCurrentIndex guifg=#ffe560 guibg=#8c98a7
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
 " highlight! BufferAlternate guifg=#2b3240 guibg=#343b4d
  highlight! BufferTabpageFill guibg=#222730
