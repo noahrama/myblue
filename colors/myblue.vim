@@ -74,11 +74,11 @@ highlight! link IncSearch Visual
 
 highlight! link VertSplit StatusLine
 
-highlight! TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
-highlight! TabLine ctermfg=Blue ctermbg=Yellow
-highlight! TabLineSel ctermfg=Red ctermbg=Yellow
-highlight! Title ctermfg=LightBlue ctermbg=Magenta
 
+highlight! BufferCurrent guibg=#4a5265
+highlight! BufferCurrentIndex guifg=#ffe560 guibg=#4a5265
+" highlight! BufferAlternate guifg=#2b3240 guibg=#343b4d
+highlight! BufferAlternate guifg=#2b3240 guibg=#343b4d
 
 
 
