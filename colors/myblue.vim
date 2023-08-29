@@ -75,7 +75,7 @@ highlight! link IncSearch Visual
 highlight! link VertSplit StatusLine
 
 " highlight! BufferCurrent guibg=#4a5265
-highlight! BufferCurrentIndex guifg=Black guibg=#8c98a7
+highlight! BufferCurrentIndex guifg=#f8e7b7 guibg=#8c98a7
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
 " highlight! BufferAlternate guifg=#2b3240 guibg=#343b4d
 hi BufferTabpageFill guibg=#222730
