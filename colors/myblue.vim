@@ -99,8 +99,8 @@ highlight! PreProc                guifg=#c8a9ea  guibg=NONE     gui=NONE       c
 highlight! Identifier             guifg=#c8a9ea  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=reverse
-highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
-highlight! String                 guifg=#7296ad  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
+" highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
+" highlight! String                 guifg=#9494b3  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
 highlight! String                 guifg=#7c97b9  guibg=NONE     gui=NONE       ctermfg=189   ctermbg=NONE  cterm=NONE
 
 highlight! Number                 guifg=#80abc9  guibg=NONE     gui=NONE       ctermfg=231   ctermbg=NONE  cterm=NONE
