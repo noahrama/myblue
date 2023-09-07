@@ -197,10 +197,13 @@ highlight! link jsObjectProp htmlString
 highlight! link flutterWidget Identifier
 
 
-highlight! TelescopeSelection                 guifg=#ff475e  guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! NormalFloat  guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
+
+highlight! TelescopeSelection                 guifg=#000000  guibg=#fedfff      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 " highlight! TelescopeMatching                  guifg=#fff     guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 " highlight! TelescopeMatchingSelection         guifg=#ff475e     guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-highlight! TelescopeResultsNormal             guifg=#6d7485  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! TelescopeResultsNormal             guifg=#8c98a7  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+" highlight! TelescopeNormal                         guifg=#6d7485  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! DiagnosticVirtualTextError                 guifg=#ff475e  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! DiagnosticFloatingError                 guifg=#ff475e  guibg=#42475 gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
