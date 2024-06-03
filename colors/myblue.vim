@@ -197,9 +197,8 @@ highlight! link jsObjectProp htmlString
 highlight! link flutterWidget Identifier
 
 
-" highlight! NormalFloat  guifg=#7d8395  guibg=#363b4a     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
-highlight! NormalFloat  guifg=#7d8395  guibg=#2a2f40     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
-" highlight! NormalFloat  guifg=#7d8395  guibg=#181c2a     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
+" highlight! NormalFloat  guifg=#7d8395  guibg=#202739     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
+highlight! NormalFloat guibg=#1b1c25 guifg=#7d8395
 
 " highlight! TelescopeSelection                 guifg=#ffffff guibg=#48485c  gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! TelescopeSelection                 guifg=#ffeeff guibg=#3b3b4e  gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
@@ -211,7 +210,7 @@ highlight! TelescopeResultsNormal             guifg=#757d8f  guibg=#23252b      
 highlight! TelescopeNormal                         guifg=#6d7485  guibg=#23252b      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! DiagnosticVirtualTextError                 guifg=#ff475e  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-highlight! DiagnosticFloatingError                 guifg=#ff475e  guibg=#424757 gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-highlight! DiagnosticSignError                 guifg=#ff475e  guibg=#424757      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! DiagnosticFloatingError                 guifg=#ff475e  guibg=NONE gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+hnonenoneighlight! DiagnosticSignError                 guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
-highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#c1c9d4      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#22730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
