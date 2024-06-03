@@ -211,6 +211,6 @@ highlight! TelescopeNormal                         guifg=#6d7485  guibg=#23252b 
 
 highlight! DiagnosticVirtualTextError                 guifg=#ff475e  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! DiagnosticFloatingError                 guifg=#ff475e  guibg=NONE gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-hnonenoneighlight! DiagnosticSignError                 guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! DiagnosticSignError                 guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#22730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
