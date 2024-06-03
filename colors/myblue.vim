@@ -198,7 +198,7 @@ highlight! link flutterWidget Identifier
 
 
 " highlight! NormalFloat  guifg=#7d8395  guibg=#363b4a     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
-highlight! NormalFloat  guifg=#7d8395  guibg=#272b38     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
+highlight! NormalFloat  guifg=#7d8395  guibg=#2a324a     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
 " highlight! NormalFloat  guifg=#7d8395  guibg=#181c2a     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=undercurl
 
 " highlight! TelescopeSelection                 guifg=#ffffff guibg=#48485c  gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
