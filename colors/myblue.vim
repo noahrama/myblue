@@ -224,6 +224,7 @@ highlight! RenderMarkdownH3Bg   guifg=#ffffff guibg=#3c4581 gui=NONE
 highlight! RenderMarkdownH4Bg   guifg=#ffffff guibg=#3c8181 gui=NONE
 highlight! RenderMarkdownH5Bg   guifg=#ffffff guibg=#3c8148 gui=NONE
 highlight! RenderMarkdownH6Bg   guifg=#ffffff guibg=#817f3c gui=NONE
+highlight! RenderMarkdownError   guifg=#ff475e guibg=none gui=NONE
 
 
 " markdown render
