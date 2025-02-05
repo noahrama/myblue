@@ -217,9 +217,17 @@ highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#22730    
 
 " markdown
 highlight! confComment guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+" highlight! RenderMarkdownH1 guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#90240b gui=NONE
+highlight! RenderMarkdownH2Bg   guifg=#ffffff guibg=#813c77 gui=NONE
+highlight! RenderMarkdownH3Bg   guifg=#ffffff guibg=#3c4581 gui=NONE
+highlight! RenderMarkdownH4Bg   guifg=#ffffff guibg=#3c8181 gui=NONE
+highlight! RenderMarkdownH5Bg   guifg=#ffffff guibg=#3c8148 gui=NONE
+highlight! RenderMarkdownH6Bg   guifg=#ffffff guibg=#817f3c gui=NONE
+
 
 " markdown render
-highlight! RenderMarkdownH1 guifg=#ff475e     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! RenderMarkdownH2 guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+" highlight! RenderMarkdownH1 guifg=#ff475e     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+" highlight! RenderMarkdownH2 guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
