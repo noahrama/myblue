@@ -214,3 +214,12 @@ highlight! DiagnosticFloatingError                 guifg=#ff475e  guibg=NONE gui
 highlight! DiagnosticSignError                 guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#22730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+
+" markdown
+highlight! confComment guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+
+" markdown render
+highlight! RenderMarkdownH1 guifg=#ff475e     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! RenderMarkdownH2 guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+
+
