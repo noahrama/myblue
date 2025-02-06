@@ -219,8 +219,8 @@ highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#22730    
 highlight! confComment guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 " highlight! RenderMarkdownH1 guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#d5423b gui=NONE
-highlight! RenderMarkdownH2Bg   guifg=#ffffff guibg=#b444bd gui=NONE
-highlight! RenderMarkdownH3Bg   guifg=#ffffff guibg=#3c4581 gui=NONE
+highlight! RenderMarkdownH2Bg   guifg=#ffffff guibg=#3c4581 gui=NONE
+highlight! RenderMarkdownH3Bg   guifg=#ffffff guibg=#b444bd gui=NONE
 highlight! RenderMarkdownH4Bg   guifg=#ffffff guibg=#42647b gui=NONE
 highlight! RenderMarkdownH5Bg   guifg=#ffffff guibg=#3c8148 gui=NONE
 highlight! RenderMarkdownH6Bg   guifg=#ffffff guibg=#817f3c gui=NONE
