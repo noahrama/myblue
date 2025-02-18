@@ -221,8 +221,8 @@ highlight! confComment guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008
 " highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#d5423b gui=NONE
 highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#9f312b gui=NONE
 " highlight! RenderMarkdownH2Bg   guifg=#ffffff guibg=#b444bd gui=NONE
-highlight! RenderMarkdownH2Bg   guifg=#ffffff guibg=#9f2b75 gui=NONE
-highlight! RenderMarkdownH3Bg   guifg=#ffffff guibg=#3c4581 gui=NONE
+highlight! RenderMarkdownH2Bg   guifg=#ffffff guibg=#3c4581 gui=NONE
+highlight! RenderMarkdownH3Bg   guifg=#ffffff guibg=#9f2b75 gui=NONE
 highlight! RenderMarkdownH4Bg   guifg=#ffffff guibg=#42647b gui=NONE
 highlight! RenderMarkdownH5Bg   guifg=#ffffff guibg=#4d887c gui=NONE
 highlight! RenderMarkdownH6Bg   guifg=#ffffff guibg=#737158 gui=NONE
