@@ -44,7 +44,6 @@ let g:colors_name="myblue"
 highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 highlight! CoCSelMenu                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 highlight! PmenuSel                 guifg=#4a5265  guibg=#222730  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
-highlight
 
 highlight! ColorColumn            guifg=#c1c9d4  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
