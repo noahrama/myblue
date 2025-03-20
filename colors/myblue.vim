@@ -129,7 +129,7 @@ highlight! Directory guifg=#7382b4  guibg=NONE     gui=NONE       ctermfg=4     
 
 highlight! link Pmenu DiagnosticVirtualTextError 
 " highlight! PmenuSel       guifg=#9ec5e8  guibg=#52586c  gui=reverse       ctermfg=4     ctermbg=NONE  cterm=undercurl
-highlight! PmenuSel          guifg=#e8d09e  guibg=#52586c  gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
+highlight! PmenuSel          guifg=#e8d09e  guibg=#bc284f  gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! PmenuSbar      guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 hi SignColumn guibg=#2b3240
 
@@ -212,7 +212,8 @@ highlight! TelescopeMatchingSelection         guifg=#000     guibg=#343b4d      
 highlight! TelescopeResultsNormal             guifg=#757d8f  guibg=#23252b      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! TelescopeNormal                         guifg=#6d7485  guibg=#23252b      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
-highlight! DiagnosticVirtualTextError                 guifg=#ff475e  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+" highlight! DiagnosticVirtualTextError                 guifg=#ff475e  guibg=#222730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! DiagnosticVirtualTextError                 guifg=#ff475e guibg=#1b1c25      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! DiagnosticFloatingError                 guifg=#ff475e  guibg=NONE gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! DiagnosticSignError                 guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
