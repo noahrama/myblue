@@ -133,6 +133,7 @@ highlight! link Pmenu DiagnosticVirtualTextError
 highlight! PmenuSel                 guifg=#4a5265  guibg=#222730  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
 highlight! PmenuSbar      guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 hi SignColumn guibg=#2b3240
+m
 
 
 
