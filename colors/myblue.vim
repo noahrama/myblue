@@ -41,6 +41,7 @@ let g:colors_name="myblue"
 
 
 highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
+highlight! CoCSelMenu                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
 highlight! ColorColumn            guifg=#c1c9d4  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
@@ -125,7 +126,8 @@ highlight! link EndOfBuffer Comment
 highlight! Directory guifg=#7382b4  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=undercurl
 
 
-highlight! Pmenu          guifg=#e8d09e  guibg=#52586c  gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
+" highlight! Pmenu          guifg=#e8d09e  guibg=#52586c  gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
+highlight! link Pmenu DiagnosticVirtualTextError 
 highlight! PmenuSel       guifg=#9ec5e8  guibg=#52586c  gui=reverse       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! PmenuSbar      guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 hi SignColumn guibg=#2b3240
