@@ -57,8 +57,8 @@ highlight! CursorLineNr           guifg=#ffe560   guibg=#222730  gui=NONE       
 highlight! CursorLine             guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 
 
-highlight! StatusLine             guifg=#ff00ff  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
-highlight! WildMenu               guifg=#393939  guibg=white  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
+highlight! StatusLine             guifg=#ff00ff  guibg=#4d5083 gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
+highlight! WildMenu               guifg=#393939  guibg=#4d5083 gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! Folded                 guifg=#e8e8e8  guibg=#343b4d  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
