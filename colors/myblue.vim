@@ -44,7 +44,7 @@ let g:colors_name="myblue"
 highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
 
-highlight! ColorColumn            guifg=#c1c9d4  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
+highlight! ColorColumn            guifg=#ff00ff  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
 
 highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
@@ -132,9 +132,6 @@ highlight! link Pmenu DiagnosticVirtualTextError
 highlight! PmenuSel          guifg=#e8d09e  guibg=#bc284f  gui=bold       ctermfg=4     ctermbg=NONE  cterm=undercurl
 highlight! PmenuSbar      guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 hi SignColumn guibg=#2b3240
-
-
-
 
 
 highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
