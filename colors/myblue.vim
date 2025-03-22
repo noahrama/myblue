@@ -44,7 +44,7 @@ let g:colors_name="myblue"
 highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
 
-highlight! ColorColumn            guifg=#ff00ff  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
+highlight! ColorColumn            guifg=#c1c9d4  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
 
 highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
