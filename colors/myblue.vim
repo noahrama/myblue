@@ -107,12 +107,13 @@ highlight! BufferTabpageFill guibg=#222730
 " highlight LazyInfo guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! DiagnosticInfo guifg=#deade6 guibg=#1b1c25 gui=NONE
 
-highlight! MasonHighlight guifg=#deade6 guibg=#1b1c25 gui=NONE
+highlight! MasonHighlightBlock guifg=#1b1c25 guibg=#deade6 gui=NONE
 highlight! MasonHighlightBlock guifg=#1b1c25 guibg=#deade6 gui=NONE
 highlight! link MasonHeaderSecondary MasonHighlightBlock
 highlight! link MasonHighlightBlockBold MasonHighlightBlock
 highlight! link LazyButtonActive MasonHighlightBlock
 highlight! link LazyH1 MasonHighlightBlock
+highlight! link LazyH2 MasonHighlightBlock
 
 " MasonHighlightBlock xxx guifg=#222222 guibg=#56b6c2
 " MasonHighlight xxx guifg=#56b6c2
@@ -131,6 +132,39 @@ highlight! link LazyH1 MasonHighlightBlock
 " MasonHighlightBlockBoldSecondary xxx cterm=bold gui=bold guifg=#222222 guibg=#dca561
 " MasonHighlightBlockSecondary xxx guifg=#222222 guibg=#dca561
 " MasonHighlightBlockBold xxx cterm=bold gui=bold guifg=#222222 guibg=#56b6c2
+
+" LazyComment    xxx links to Comment
+" LazyDimmed     xxx links to Conceal
+" LazyProp       xxx links to Conceal
+" LazyNoCond     xxx links to DiagnosticWarn
+" LazyReasonPlugin xxx links to Special
+" LazyUrl        xxx links to @markup.link
+" LazySpecial    xxx links to @punctuation.special
+" LazyTaskOutput xxx links to MsgArea
+" LazyButton     xxx links to CursorLine
+" LazyReasonRequire xxx links to @variable.parameter
+" LazyReasonImport xxx links to Identifier
+" LazyReasonCmd  xxx links to Operator
+" LazyReasonFt   xxx links to Character
+" LazyReasonSource xxx links to Character
+" LazyReasonStart xxx links to @variable.member
+" LazyValue      xxx links to @string
+" LazyReasonKeys xxx links to Statement
+" LazyReasonEvent xxx links to Constant
+" LazyReasonRuntime xxx links to @macro
+" @macro         xxx cleared
+" LazyProgressTodo xxx links to LineNr
+" LazyNormal     xxx links to NormalFloat
+" LazyWarning    xxx links to DiagnosticWarn
+" LazyInfo       xxx links to DiagnosticInfo
+" LazyCommitType xxx links to Title
+" LazyCommitIssue xxx links to Number
+" LazyCommit     xxx links to @variable.builtin
+" LazyError      xxx links to DiagnosticError
+" LazyH2         xxx links to Bold
+" LazyItalic     xxx cterm=italic gui=italic
+" LazyBold       xxx cterm=bold gui=bold
+" LazyCommitScope xxx links to Italic
 
 
 
