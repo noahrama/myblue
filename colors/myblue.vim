@@ -82,8 +82,8 @@ highlight! BufferVisible guifg=#343b4d guibg=#424757 gui=NONE
 highlight! link BufferVisibleIndex BufferVisible
 highlight! link BufferVisibleMod BufferVisible
 
-highlight! BufferCurrent guifg=#deade6 guibg=#343b4d gui=NONE
-highlight! BufferCurrentIndex guifg=#ffffff guibg=#343b4d gui=NONE
+highlight! BufferCurrent guifg=#deade6 guibg=#222730 gui=NONE
+highlight! BufferCurrentIndex guifg=#ffffff guibg=#222730 gui=NONE
 highlight! link BufferCurrentMod BufferCurrent
 
 highlight! link BufferAlternate BufferCurrent
