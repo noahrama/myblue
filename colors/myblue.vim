@@ -95,7 +95,7 @@ highlight! link BufferAlternateMod BufferCurrentMod
 highlight! link BufferAlternateModBtn BufferCurrentModBtn
 
 highlight! BufferInactive guifg=#222730 guibg=#424757 gui=NONE
-highlight! BufferInactiveIndex guifg=#a4a4a4 guibg=#222730 gui=NONE
+highlight! BufferInactiveIndex guifg=#a4a4a4 guibg=#424757 gui=NONE
 highlight! link BufferInactiveMod BufferInactive
 highlight! link BufferInactiveModBtn BufferVisibleModBtn
 
