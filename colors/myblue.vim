@@ -109,6 +109,7 @@ highlight! DiagnosticInfo guifg=#deade6 guibg=#1b1c25 gui=NONE
 
 highlight! MasonHighlightBlock guifg=#deade6 guibg=#1b1c25 gui=NONE
 highlight! link MasonHeaderSecondary MasonHighlightBlock
+highlight! link MasonHighlightBlockBold MasonHighlightBlock
 highlight! link LazyButtonActive MasonHighlightBlock
 
 " MasonHighlightBlock xxx guifg=#222222 guibg=#56b6c2
