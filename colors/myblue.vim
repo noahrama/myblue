@@ -56,7 +56,8 @@ highlight! TabLineFill            guifg=NONE     guibg=#000000  gui=NONE       c
 
 highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
 
-highlight! CursorLineNr           guifg=#ffe560   guibg=#222730  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
+" highlight! CursorLineNr           guifg=#ffe560   guibg=#222730  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
+highlight! CursorLineNr             guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! CursorLine             guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 
 
