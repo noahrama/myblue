@@ -85,16 +85,17 @@ highlight! BufferVisibleIndex guifg=#b430c1 guibg=#8c98a7 gui=NONE
 
 highlight! BufferAlternate guifg=#deade6  guibg=#343b4d  gui=NONE
 highlight! BufferAlternateIndex guifg=#ffffff guibg=#343b4d gui=NONE
-highlight! BufferAlternateMod guifg=#ffffff guibg=#343b4d gui=NONE
+highlight! link BufferAlternateMod BufferAlternate
 
 highlight! BufferCurrent guifg=#deade6 guibg=#343b4d gui=NONE
 highlight! BufferCurrentIndex guifg=#ffffff guibg=#343b4d gui=NONE
-highlight! BufferCurrentMod guifg=#ffffff guibg=#343b4d gui=NONE
+highlight! link BufferCurrentMod BufferCurrent
 
 
 
 highlight! BufferInactive guifg=#222730 guibg=#424757 gui=NONE
 highlight! BufferInactiveIndex guifg=#a4a4a4 guibg=#424757 gui=NONE
+highlight! link BufferInactiveMod BufferInactive
 
 highlight! BufferTabpageFill guibg=#222730
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
