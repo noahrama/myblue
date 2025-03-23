@@ -82,9 +82,9 @@ highlight! BufferVisible guifg=#343b4d guibg=#8c98a7 gui=NONE
 highlight! link BufferVisibleNumber BufferVisible
 
 highlight! BufferAlternate guifg=#ffffff guibg=#c898ea gui=NONE
-highlight! link BufferAlternate BufferAlternateNumber 
+highlight! link BufferAlternateNumber BufferAlternate
 highlight! BufferCurrent guifg=#ffffff guibg=#c898ea gui=NONE
-highlight! link BufferCurrent BufferCurrentNumber
+highlight! link BufferCurrentNumber BufferCurrent
 highlight! BufferTabpageFill guibg=#222730
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
 " highlight! BufferAlternate guifg=#2b3240 guibg=#343b4d
