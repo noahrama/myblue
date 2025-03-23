@@ -76,19 +76,19 @@ highlight! link IncSearch Visual
 
 highlight! link VertSplit StatusLine
 
-" highlight! BufferCurrent guibg=#4a5265
-" highlight! BufferCurrentIndex guifg=#ffe560 guibg=#8c98a7
-highlight! BufferVisible guifg=#343b4d guibg=#8c98a7 gui=NONE
 " highlight! BufferVisibleNumber guifg=#b430c1 guibg=#8c98a7 gui=NONE
+
+highlight! BufferVisible guifg=#343b4d guibg=#8c98a7 gui=NONE
 highlight! BufferVisibleIndex guifg=#b430c1 guibg=#8c98a7 gui=NONE
 
 highlight! BufferAlternate guifg=#deade6  guibg=#343b4d  gui=NONE
-" highlight! BufferAlternateNumber guifg=#b430c1 guibg=#343b4d gui=NONE
 highlight! BufferAlternateIndex guifg=#b430c1 guibg=#343b4d gui=NONE
 
 highlight! BufferCurrent guifg=#deade6 guibg=#343b4d gui=NONE
-" highlight! BufferCurrentNumber guifg=#b430c1 guibg=#343b4d gui=NONE
 highlight! BufferCurrentIndex guifg=#b430c1 guibg=#343b4d gui=NONE
+
+highlight! BufferInactive guifg=#d5d1da guibg=#424757 gui=NONE
+highlight! BufferInactiveIndex guifg=#ffffff guibg=#343b4d gui=NONE
 
 highlight! BufferTabpageFill guibg=#222730
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
