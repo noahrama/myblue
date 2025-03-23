@@ -84,7 +84,7 @@ highlight! link BufferVisibleMod BufferVisible
 highlight! BufferVisibleModBtn guifg=#fbf4c6 guibg=#424757 gui=NONE
 
 
-highlight! BufferCurrent guifg=#deade6 guibg=#2b3240 gui=NONE
+highlight! BufferCurrent guifg=#ffffff guibg=#2b3240 gui=NONE
 highlight! BufferCurrentIndex guifg=#fbf4c6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentMod guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentModBtn guifg=#fbf4c6   guibg=#2b3240 gui=NONE
@@ -286,7 +286,8 @@ highlight! NormalFloat guibg=#1b1c25 guifg=#7d8395
 " highlight! TelescopeSelection                 guifg=#ffffff guibg=#48485c  gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 highlight! TelescopeSelection                 guifg=#ffeeff guibg=#3b3b4e  gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
-highlight! TelescopeMatching                  guifg=#ff70ff     guibg=NONE      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! TelescopeMatching                  guifg=#deade6     guibg=NONE      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+sdfa
 highlight! TelescopeMatchingSelection         guifg=#000     guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! TelescopeResultsNormal             guifg=#757d8f  guibg=#23252b      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
