@@ -82,13 +82,13 @@ highlight! BufferVisible guifg=#343b4d guibg=#8c98a7 gui=NONE
 highlight! BufferVisibleIndex guifg=#b430c1 guibg=#8c98a7 gui=NONE
 
 highlight! BufferAlternate guifg=#deade6  guibg=#343b4d  gui=NONE
-highlight! BufferAlternateIndex guifg=#f5c0ff guibg=#343b4d gui=NONE
+highlight! BufferAlternateIndex guifg=#ffffff guibg=#343b4d gui=NONE
 
 highlight! BufferCurrent guifg=#deade6 guibg=#343b4d gui=NONE
-highlight! BufferCurrentIndex guifg=#f5c0ff guibg=#343b4d gui=NONE
+highlight! BufferCurrentIndex guifg=#ffffff guibg=#343b4d gui=NONE
 
-highlight! BufferInactive guifg=#222730 guibg=#343b4d gui=NONE
-highlight! BufferInactiveIndex guifg=#d4d1da guibg=#343b4d gui=NONE
+highlight! BufferInactive guifg=#222730 guibg=#424757 gui=NONE
+highlight! BufferInactiveIndex guifg=#a4a4a4 guibg=#424757 gui=NONE
 
 highlight! BufferTabpageFill guibg=#222730
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
