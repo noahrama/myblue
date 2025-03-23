@@ -104,6 +104,9 @@ highlight! BufferTabpageFill guibg=#222730
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
 " highlight! BufferAlternate guifg=#2b3240 guibg=#343b4d
 
+highlight LazyInfo guifg=#deade6 guibg=#2b3240 gui=NONE
+
+
 
 
 
