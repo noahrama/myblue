@@ -81,7 +81,7 @@ highlight! link VertSplit StatusLine
 highlight! BufferVisible guifg=#343b4d guibg=#424757 gui=NONE
 highlight! link BufferVisibleIndex guifg=#fbf4c6 guibg=#424757 gui=NONE
 highlight! link BufferVisibleMod BufferVisible
-highlight! BufferVisibleModBtn guifg=#fbf4c6 guibg=#434757 gui=NONE
+highlight! BufferVisibleModBtn guifg=#fbf4c6 guibg=#424757 gui=NONE
 
 
 highlight! BufferCurrent guifg=#deade6 guibg=#2b3240 gui=NONE
