@@ -86,7 +86,7 @@ highlight! BufferVisibleModBtn guifg=#fbf4c6 guibg=#424757 gui=NONE
 
 highlight! BufferCurrent guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentIndex guifg=#fbf4c6 guibg=#2b3240 gui=NONE
-highlight! BufferCurrentBtn guifg=#424757 guibg=#2b3240 gui=NONE
+highlight! BufferCurrentBtn guifg=#6d7485 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentMod guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentModBtn guifg=#fbf4c6   guibg=#2b3240 gui=NONE
 
