@@ -82,11 +82,11 @@ highlight! BufferVisible guifg=#343b4d guibg=#8c98a7 gui=NONE
 highlight! link BufferVisibleNumber BufferVisible
 highlight! link BufferVisibleIndex BufferVisible
 
-highlight! BufferAlternate guifg=#b430c1 guibg=#343b4d  gui=NONE
+highlight! BufferAlternate guifg=#e1a4cb guibg=#343b4d  gui=NONE
 highlight! link BufferAlternateNumber BufferAlternate
 highlight! link BufferAlternateIndex BufferAlternate
 
-highlight! BufferCurrent guifg=#b430c1 guibg=#343b4d gui=NONE
+highlight! BufferCurrent guifg=#e1a4cb guibg=#343b4d gui=NONE
 highlight! link BufferCurrentNumber BufferCurrent
 highlight! link BufferCurrentIndex BufferCurrent
 
