@@ -79,13 +79,13 @@ highlight! link VertSplit StatusLine
 " highlight! BufferVisibleNumber guifg=#b430c1 guibg=#8c98a7 gui=NONE
 
 highlight! BufferVisible guifg=#343b4d guibg=#424757 gui=NONE
-highlight! link BufferVisibleIndex BufferVisible
+highlight! link BufferVisibleIndex guifg=#fbf4c6 guibg=#424757 gui=NONE
 highlight! link BufferVisibleMod BufferVisible
 highlight! BufferVisibleModBtn guifg=#fbf4c6 guibg=#434757 gui=NONE
 
 
 highlight! BufferCurrent guifg=#deade6 guibg=#2b3240 gui=NONE
-highlight! BufferCurrentIndex guifg=#ffffff guibg=#2b3240 gui=NONE
+highlight! BufferCurrentIndex guifg=#fbf4c6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentMod guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentModBtn guifg=#fbf4c6   guibg=#2b3240 gui=NONE
 
@@ -95,7 +95,7 @@ highlight! link BufferAlternateMod BufferCurrentMod
 highlight! link BufferAlternateModBtn BufferCurrentModBtn
 
 highlight! BufferInactive guifg=#222730 guibg=#424757 gui=NONE
-highlight! BufferInactiveIndex guifg=#222730 guibg=#424757 gui=NONE
+highlight! BufferInactiveIndex guifg=#fbf4c6 guibg=#424757 gui=NONE
 highlight! link BufferInactiveMod BufferInactive
 highlight! link BufferInactiveModBtn BufferVisibleModBtn
 
