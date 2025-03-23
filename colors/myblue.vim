@@ -107,7 +107,25 @@ highlight! BufferTabpageFill guibg=#222730
 " highlight LazyInfo guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! DiagnosticInfo guifg=#deade6 guibg=#1b1c25 gui=NONE
 
+highlight! link MasonHighlightBlock BufferCurrent
 
+" MasonHighlightBlock xxx guifg=#222222 guibg=#56b6c2
+" MasonHighlight xxx guifg=#56b6c2
+" MasonMutedBlockBold xxx cterm=bold gui=bold guifg=#222222 guibg=#888888
+" MasonMutedBlock xxx guifg=#222222 guibg=#888888
+" MasonMuted     xxx guifg=#888888
+" MasonHeaderSecondary xxx cterm=bold gui=bold guifg=#222222 guibg=#56b6c2
+" MasonHeader    xxx cterm=bold gui=bold guifg=#222222 guibg=#dca561
+" MasonLink      xxx links to MasonHighlight
+" MasonNormal    xxx links to NormalFloat
+" MasonBackdrop  xxx guibg=#000000
+" MasonHeading   xxx cterm=bold gui=bold
+" MasonWarning   xxx links to WarningMsg
+" MasonError     xxx links to ErrorMsg
+" MasonHighlightSecondary xxx guifg=#dca561
+" MasonHighlightBlockBoldSecondary xxx cterm=bold gui=bold guifg=#222222 guibg=#dca561
+" MasonHighlightBlockSecondary xxx guifg=#222222 guibg=#dca561
+" MasonHighlightBlockBold xxx cterm=bold gui=bold guifg=#222222 guibg=#56b6c2
 
 
 
