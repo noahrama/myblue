@@ -86,13 +86,13 @@ highlight! BufferVisibleModBtn guifg=#fbf4c6 guibg=#424757 gui=NONE
 
 highlight! BufferCurrent guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentIndex guifg=#fbf4c6 guibg=#2b3240 gui=NONE
-highlight! BufferCurrentIcon guifg=#fbf4c6 guibg=#2b3240 gui=NONE
+highlight! BufferCurrentBtn guifg=#424757 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentMod guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! BufferCurrentModBtn guifg=#fbf4c6   guibg=#2b3240 gui=NONE
 
 highlight! link BufferAlternate BufferCurrent
 highlight! link BufferAlternateIndex BufferCurrentIndex
-highlight! link BufferAlternateIcon BufferCurrentIcon
+highlight! link BufferAlternateBtn BufferCurrentBtn
 highlight! link BufferAlternateMod BufferCurrentMod
 highlight! link BufferAlternateModBtn BufferCurrentModBtn
 
