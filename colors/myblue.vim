@@ -51,7 +51,8 @@ highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       c
 highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! TabLineFill            guifg=NONE     guibg=#000000  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline
 
-highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
+" highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       ctermfg=243     ctermbg=black  cterm=NONE
+highlight! link LineNr Comment
 
 highlight! CursorLineNr           guifg=#ffe560   guibg=#222730  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
 highlight! CursorLine             guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
