@@ -107,7 +107,8 @@ highlight! BufferTabpageFill guibg=#222730
 " highlight LazyInfo guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! DiagnosticInfo guifg=#deade6 guibg=#1b1c25 gui=NONE
 
-highlight! link MasonHighlightBlock BufferCurrent
+highlight! MasonHighlightBlock guifg=#deade6 guibg=#1b1c25 gui=NONE
+highlight! link LazyButtonActive MasonHighlightBlock
 
 " MasonHighlightBlock xxx guifg=#222222 guibg=#56b6c2
 " MasonHighlight xxx guifg=#56b6c2
