@@ -81,7 +81,7 @@ highlight! link VertSplit StatusLine
 highlight! BufferVisible guifg=#343b4d guibg=#424757 gui=NONE
 highlight! link BufferVisibleIndex BufferVisible
 highlight! link BufferVisibleMod BufferVisible
-highlight! BufferVisibleModBtn guifg=#deade6 guibg=#434757 gui=NONE
+highlight! BufferVisibleModBtn guifg=#ffffff guibg=#434757 gui=NONE
 
 
 highlight! BufferCurrent guifg=#deade6 guibg=#222730 gui=NONE
@@ -95,7 +95,7 @@ highlight! link BufferAlternateMod BufferAlternate
 highlight! BufferInactive guifg=#222730 guibg=#424757 gui=NONE
 highlight! BufferInactiveIndex guifg=#a4a4a4 guibg=#424757 gui=NONE
 highlight! link BufferInactiveMod BufferInactive
-highlight! BufferInactiveModBtn guifg=#deade6 guibg=#434757 gui=NONE
+highlight! BufferInactiveModBtn guifg=#ffffff guibg=#434757 gui=NONE
 
 highlight! BufferTabpageFill guibg=#222730
 " " highlight! BufferVisible guifg=#2b3240 guibg=#343b4d
