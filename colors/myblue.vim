@@ -58,9 +58,9 @@ highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       c
 
 " highlight! CursorLineNr           guifg=#ffe560   guibg=#222730  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
 highlight! CursorLineNr             guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
-highlight! CursorLine             guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! CursorLine               guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! Cursor                     guifg=red  guibg=white  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! MatchParen                 guibg=#b430c1 guifg=#ffe560 gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! MatchParen                 guibg=#b430c1 guifg=#ffffff gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
 highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
@@ -114,8 +114,8 @@ highlight! BufferTabpageFill guibg=#222730
 " highlight LazyInfo guifg=#deade6 guibg=#2b3240 gui=NONE
 highlight! DiagnosticInfo guifg=#deade6 guibg=#1b1c25 gui=NONE
 
-highlight! MasonHighlightBlock guifg=#1b1c25 guibg=#deade6 gui=NONE
-highlight! MasonHighlight guifg=#deade6 guibg=#1b1c25 gui=NONE
+highlight! MasonHighlightBlock guifg=NONE guibg=#deade6 gui=NONE
+highlight! MasonHighlight guifg=#deade6 guibg=NONE gui=NONE
 highlight! link MasonHeaderSecondary MasonHighlightBlock
 highlight! link MasonHighlightBlockBold MasonHighlightBlock
 highlight! link LazyButtonActive MasonHighlightBlock
