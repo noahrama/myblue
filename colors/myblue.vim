@@ -59,6 +59,8 @@ highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       c
 " highlight! CursorLineNr           guifg=#ffe560   guibg=#222730  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline 
 highlight! CursorLineNr             guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! CursorLine             guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! Cursor                     guifg=red  guibg=white  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! MatchParen                 guibg=#b430c1 guifg=#ffe560 gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
 highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
@@ -66,8 +68,6 @@ highlight! WildMenu               guifg=#393939  guibg=white  gui=BOLD       cte
 highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 highlight! Folded                 guifg=#e8e8e8  guibg=#343b4d  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! MatchParen                 guifg=white guibg=grey  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! Cursor                     guifg=red  guibg=white  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
 highlight! Search                 guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
