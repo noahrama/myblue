@@ -123,6 +123,7 @@ highlight! link LazyButtonActive MasonHighlightBlock
 highlight! link LazyButton MasonHighlight
 highlight! link LazyButtonActive MasonHighlightBlock
 highlight! link LazyProp MasonHighlight
+highlight! link LazyH1 MasonHighlightBlock
 " highlight! link LazyButton MasonHighlightBlock
 
 " MasonHighlightBlock xxx guifg=#222222 guibg=#56b6c2
