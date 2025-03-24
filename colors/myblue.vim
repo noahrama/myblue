@@ -120,7 +120,7 @@ highlight! link MasonHeaderSecondary MasonHighlightBlock
 highlight! link MasonHighlightBlockBold MasonHighlightBlock
 highlight! link LazyButtonActive MasonHighlightBlock
 
-highlight! link LazyH1 MasonHighlight
+highlight! link LazyButton MasonHighlight
 highlight! link LazyProp MasonHighlight
 " highlight! link LazyButton MasonHighlightBlock
 
