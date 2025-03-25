@@ -323,6 +323,14 @@ highlight! RenderMarkdownH6Bg   guifg=#ffffff guibg=#737158 gui=NONE
 
 highlight! RenderMarkdownError   guifg=#ff475e guibg=none gui=NONE
 
+highlight! DapBreakpoint   guifg=#ff475e guibg=none gui=NONE
+highlight! DapLogPoint   guifg=#f8e7b7 guibg=none gui=NONE
+highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
+
+" vim.highlight.create('DapLogPoint', { ctermbg=0, guifg='#61afef', guibg='#31353f' }, false)
+" vim.highlight.create('DapStopped', { ctermbg=0, guifg='#98c379', guibg='#31353f' }, false)
+
+
 
 " markdown render
 " highlight! RenderMarkdownH1 guifg=#ff475e     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
