@@ -329,7 +329,7 @@ highlight! DapLogPoint   guifg=#f8e7b7 guibg=none gui=NONE
 highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
 
 hi! WinSeparator guibg=#1f2630
-hi! SnippetTabstop guibg=#44d190 guifg=#f8e7b7
+hi! SnippetTabstop guibg=#44d190 guifg=#ff00ff
 
 
 
