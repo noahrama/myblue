@@ -64,7 +64,7 @@ highlight! MatchParen                 guibg=#ff475e guifg=#ffffff gui=NONE      
 
 
 " highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
-highlight! StatusLine             guifg=white  guibg=#343b4d  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
+highlight! StatusLine             guifg=white  guibg=#222730  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! WildMenu               guifg=#393939  guibg=white  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
@@ -327,6 +327,9 @@ highlight! RenderMarkdownError   guifg=#ff475e guibg=none gui=NONE
 highlight! DapBreakpoint   guifg=#ff475e guibg=none gui=NONE
 highlight! DapLogPoint   guifg=#f8e7b7 guibg=none gui=NONE
 highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
+
+hi! WinSeparator guibg=#a170c7
+
 
 " vim.highlight.create('DapLogPoint', { ctermbg=0, guifg='#61afef', guibg='#31353f' }, false)
 " vim.highlight.create('DapStopped', { ctermbg=0, guifg='#98c379', guibg='#31353f' }, false)
