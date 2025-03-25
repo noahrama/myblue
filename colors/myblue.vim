@@ -63,7 +63,7 @@ highlight! Cursor                     guifg=red  guibg=white  gui=NONE       cte
 highlight! MatchParen                 guibg=#ff475e guifg=#ffffff gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
-highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
+highlight! StatusLine             guifg=white  guibg=#2f2f2f  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 " highlight! StatusLine             guifg=white  guibg=NONE  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! WildMenu               guifg=#393939  guibg=white  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! StatusLineNC           guifg=#d5cd83  guibg=#2f2f2f  gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
