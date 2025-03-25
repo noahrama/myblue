@@ -50,7 +50,7 @@ highlight! Normal                 guifg=#c1c9d4  guibg=#222730  gui=NONE       c
 highlight! ColorColumn            guifg=#c1c9d4  guibg=#262c38  gui=NONE       ctermfg=231   ctermbg=0     cterm=NONE
 
 
-highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! TabLine                guifg=#2b3240  guibg=#171b21  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! TabLineFill            guifg=NONE     guibg=#000000  gui=NONE       ctermfg=8     ctermbg=NONE  cterm=underline
 
