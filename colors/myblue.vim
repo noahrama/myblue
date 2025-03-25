@@ -60,7 +60,7 @@ highlight! LineNr                 guifg=#4a5265  guibg=#222730  gui=NONE       c
 highlight! CursorLineNr             guifg=#f8e7b7  guibg=NONE     gui=none    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! CursorLine               guifg=NONE     guibg=#343b4d  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! Cursor                     guifg=red  guibg=white  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
-highlight! MatchParen                 guibg=#b430c1 guifg=#ffffff gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
+highlight! MatchParen                 guibg=#ff475e guifg=#ffffff gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
 highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
