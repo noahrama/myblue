@@ -63,7 +63,8 @@ highlight! Cursor                     guifg=red  guibg=white  gui=NONE       cte
 highlight! MatchParen                 guibg=#ff475e guifg=#ffffff gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
-highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
+" highlight! StatusLine             guifg=white  guibg=#52586c  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
+highlight! StatusLine             guifg=white  guibg=#343b4d  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! WildMenu               guifg=#393939  guibg=white  gui=BOLD       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! StatusLineNC           guifg=#d5cd83  guibg=#424757  gui=NONE       ctermfg=226   ctermbg=008   cterm=NONE
 highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
@@ -78,7 +79,7 @@ highlight! QuickFixLine           guifg=black    guibg=#ff475e     gui=NONE     
 " highlight! link IncSearch Visual              
 highlight! link IncSearch Visual              
 
-highlight! link VertSplit StatusLine
+highlight! VertSplit guifg=#ff475e guibg=#343b4d
 
 " highlight! BufferVisibleNumber guifg=#b430c1 guibg=#8c98a7 gui=NONE
 
