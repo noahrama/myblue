@@ -328,7 +328,7 @@ highlight! DapBreakpoint   guifg=#ff475e guibg=none gui=NONE
 highlight! DapLogPoint   guifg=#f8e7b7 guibg=none gui=NONE
 highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
 
-hi! WinSeparator guibg=#1f2630
+hi! WinSeparator guibg=#2e2e2e
 hi! SnippetTabstop guibg=NONE guifg=#ff00ff
 
 
