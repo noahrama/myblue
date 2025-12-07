@@ -352,7 +352,7 @@ hi! SnippetTabstop guibg=NONE guifg=#ff00ff
 " hi semshiErrorSign       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
 " hi semshiErrorChar       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
 " highlight! link Variable PreProc
-" highlight! link Function Constant
+highlight! link Function PreProc
 
 sign define semshiError text=E> texthl=semshiErrorSign
 
