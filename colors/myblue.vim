@@ -347,7 +347,7 @@ highlight! link semshiBuiltin PreProc
 hi semshiAttribute       ctermfg=49  guifg=#00ffaf
 hi semshiSelf            ctermfg=249 guifg=#b2b2b2
 hi semshiUnresolved      ctermfg=226 guifg=#f8e7b7 cterm=underline gui=underline
-hi semshiSelected        ctermfg=231 guifg=#00000 ctermbg=161 guibg=#ff475e
+hi semshiSelected        ctermfg=231 guifg=#000000 ctermbg=161 guibg=#ff475e
 
 hi semshiErrorSign       ctermfg=231 guifg=#000000 ctermbg=160 guibg=#ff475e
 hi semshiErrorChar       ctermfg=231 guifg=#000000 ctermbg=160 guibg=#ff475e
