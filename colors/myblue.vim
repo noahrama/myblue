@@ -347,10 +347,10 @@ highlight! link semshiBuiltin PreProc
 hi semshiAttribute       ctermfg=49  guifg=#00ffaf
 hi semshiSelf            ctermfg=249 guifg=#b2b2b2
 hi semshiUnresolved      ctermfg=226 guifg=#f8e7b7 cterm=underline gui=underline
-hi semshiSelected        ctermfg=231 guifg=#ffffff ctermbg=161 guibg=#222730
+hi semshiSelected        ctermfg=231 guifg=#f8e7b7 ctermbg=161 guibg=#222730
 
-hi semshiErrorSign       ctermfg=231 guifg=#ffffff ctermbg=160 guibg=#222730
-hi semshiErrorChar       ctermfg=231 guifg=#ffffff ctermbg=160 guibg=#222730
+hi semshiErrorSign       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
+hi semshiErrorChar       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
 highlight! link Variable PreProc
 highlight! link Function Constant
 
