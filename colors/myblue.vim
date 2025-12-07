@@ -337,36 +337,24 @@ highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
 hi! WinSeparator guibg=#2e2e2e
 hi! SnippetTabstop guibg=NONE guifg=#ff00ff
 
-highlight! link semshiLocal link Constant
-highlight! link semshiGlobal Constant
-highlight! link semshiImported  PreProc
-highlight! link semshiParameter Special
-hi semshiParameterUnused ctermfg=117 guifg=#f8e7b7 cterm=underline gui=underline
-highlight! link semshiFree Contant
-highlight! link semshiBuiltin PreProc
-hi semshiAttribute       ctermfg=49  guifg=#00ffaf
-hi semshiSelf            ctermfg=249 guifg=#b2b2b2
-hi semshiUnresolved      ctermfg=226 guifg=#f8e7b7 cterm=underline gui=underline
-hi semshiSelected        ctermfg=231 guifg=#f8e7b7 ctermbg=161 guibg=#222730
+" highlight! link semshiLocal link Constant
+" highlight! link semshiGlobal Constant
+" highlight! link semshiImported  PreProc
+" highlight! link semshiParameter Special
+" hi semshiParameterUnused ctermfg=117 guifg=#f8e7b7 cterm=underline gui=underline
+" highlight! link semshiFree Contant
+" highlight! link semshiBuiltin PreProc
+" hi semshiAttribute       ctermfg=49  guifg=#00ffaf
+" hi semshiSelf            ctermfg=249 guifg=#b2b2b2
+" hi semshiUnresolved      ctermfg=226 guifg=#f8e7b7 cterm=underline gui=underline
+" hi semshiSelected        ctermfg=231 guifg=#f8e7b7 ctermbg=161 guibg=#222730
 
-hi semshiErrorSign       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
-hi semshiErrorChar       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
-highlight! link Variable PreProc
-highlight! link Function Constant
+" hi semshiErrorSign       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
+" hi semshiErrorChar       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
+" highlight! link Variable PreProc
+" highlight! link Function Constant
 
 sign define semshiError text=E> texthl=semshiErrorSign
-" highlight! link shEcho shFor
-" highlight! link shTestOpr shFor
-" highlight! link shOption shFor
-" highlight! link shConditional shNumber
-" highlight! link shCommandSub shFor
-" highlight! link shStatement Special
-" highlight! link shRange Delimiter
-" highlight! link shString shDeref
-" highlight! link zshString shDeref
-" highlight! link shBracket Delimiter
-" highlight! link zshBracket Delimiter
-" highlight! link shHereDoc Special
 
 
 " vim.highlight.create('DapLogPoint', { ctermbg=0, guifg='#61afef', guibg='#31353f' }, false)
