@@ -337,6 +337,33 @@ highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
 hi! WinSeparator guibg=#2e2e2e
 hi! SnippetTabstop guibg=NONE guifg=#ff00ff
 
+hi semshiLocal           ctermfg=209 guifg=#ff875f
+highlight! link semshiGlobal PreProc
+highlight! link semshiImported  PreProc
+highlight! link semshiParameter Special
+hi semshiParameterUnused ctermfg=117 guifg=#87d7ff cterm=underline gui=underline
+hi semshiFree            ctermfg=218 guifg=#ffafd7
+hi semshiBuiltin         ctermfg=207 guifg=#ff5fff
+hi semshiAttribute       ctermfg=49  guifg=#00ffaf
+hi semshiSelf            ctermfg=249 guifg=#b2b2b2
+hi semshiUnresolved      ctermfg=226 guifg=#ffff00 cterm=underline gui=underline
+hi semshiSelected        ctermfg=231 guifg=#ffffff ctermbg=161 guibg=#d7005f
+
+hi semshiErrorSign       ctermfg=231 guifg=#ffffff ctermbg=160 guibg=#d70000
+hi semshiErrorChar       ctermfg=231 guifg=#ffffff ctermbg=160 guibg=#d70000
+sign define semshiError text=E> texthl=semshiErrorSign
+" highlight! link shEcho shFor
+" highlight! link shTestOpr shFor
+" highlight! link shOption shFor
+" highlight! link shConditional shNumber
+" highlight! link shCommandSub shFor
+" highlight! link shStatement Special
+" highlight! link shRange Delimiter
+" highlight! link shString shDeref
+" highlight! link zshString shDeref
+" highlight! link shBracket Delimiter
+" highlight! link zshBracket Delimiter
+" highlight! link shHereDoc Special
 
 
 " vim.highlight.create('DapLogPoint', { ctermbg=0, guifg='#61afef', guibg='#31353f' }, false)
