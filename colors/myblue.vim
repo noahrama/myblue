@@ -351,7 +351,9 @@ hi semshiSelected        ctermfg=231 guifg=#000000 ctermbg=161 guibg=#ff475e
 
 hi semshiErrorSign       ctermfg=231 guifg=#000000 ctermbg=160 guibg=#ff475e
 hi semshiErrorChar       ctermfg=231 guifg=#000000 ctermbg=160 guibg=#ff475e
-highlight! link semshiLocalVariable  PreProc
+highlight! link Variable PreProc
+highlight! link Function Constant
+
 sign define semshiError text=E> texthl=semshiErrorSign
 " highlight! link shEcho shFor
 " highlight! link shTestOpr shFor
