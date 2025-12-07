@@ -337,13 +337,13 @@ highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
 hi! WinSeparator guibg=#2e2e2e
 hi! SnippetTabstop guibg=NONE guifg=#ff00ff
 
-hi semshiLocal           ctermfg=209 guifg=#ff875f
-highlight! link semshiGlobal PreProc
+highlight! link semshiLocal link Constant
+highlight! link semshiGlobal Constant
 highlight! link semshiImported  PreProc
 highlight! link semshiParameter Special
-hi semshiParameterUnused ctermfg=117 guifg=#87d7ff cterm=underline gui=underline
+hi semshiParameterUnused ctermfg=117 guifg=#f8e7b7 cterm=underline gui=underline
 hi semshiFree            ctermfg=218 guifg=#ffafd7
-hi semshiBuiltin         ctermfg=207 guifg=#ff5fff
+highlight! link semshiBuiltin PreProc
 hi semshiAttribute       ctermfg=49  guifg=#00ffaf
 hi semshiSelf            ctermfg=249 guifg=#b2b2b2
 hi semshiUnresolved      ctermfg=226 guifg=#ffff00 cterm=underline gui=underline
