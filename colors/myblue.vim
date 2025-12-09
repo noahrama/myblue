@@ -303,7 +303,7 @@ highlight! NormalFloat guibg=#1b1c25 guifg=#7d8395
 highlight! TelescopeSelection                 guifg=#ffeeff guibg=#3b3b4e  gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! TelescopeMatching                  guifg=#deade6     guibg=NONE      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
-sdfa
+
 highlight! TelescopeMatchingSelection         guifg=#000     guibg=#343b4d      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 highlight! TelescopeResultsNormal             guifg=#757d8f  guibg=#23252b      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
@@ -317,7 +317,7 @@ highlight! DiagnosticSignError                 guifg=#ff475e  guibg=none      gu
 highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#22730      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
 
 " markdown
-highlight! confComment guifg=#ff475e  guibg=none      gui=NONE       ctermfg=008   ctermbg=230   cterm=reverse
+highlight! link confComment Comment
 "
 " highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#d5423b gui=NONE
 highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#9f312b gui=NONE
