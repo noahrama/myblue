@@ -353,9 +353,9 @@ hi! SnippetTabstop guibg=NONE guifg=#ff00ff
 " hi semshiErrorChar       ctermfg=231 guifg=#f8e7b7 ctermbg=160 guibg=#222730
 " highlight! link Variable PreProc
 highlight! link Function PreProc
-highlight! cppstructure guifg=#c1c9d4     guibg=#222730  gui=NONE
+highlight! link cppstructure Constant
 highlight! link cBlock Comment
-highlight! link cDefine Constant
+" highlight! link cDefine Constant
 
 sign define semshiError text=E> texthl=semshiErrorSign
 
