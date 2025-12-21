@@ -71,6 +71,7 @@ highlight! FoldColumn             guifg=#c1c9d4     guibg=#222730  gui=NONE     
 highlight! Folded                 guifg=#e8e8e8  guibg=#343b4d  gui=NONE       ctermfg=black ctermbg=146  cterm=NONE
 
 
+
 highlight! Search                 guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
 
 highlight! QuickFixLine           guifg=black    guibg=#ff475e     gui=NONE       ctermfg=Red   ctermbg=003  cterm=reverse
@@ -79,7 +80,6 @@ highlight! QuickFixLine           guifg=black    guibg=#ff475e     gui=NONE     
 " highlight! link IncSearch Visual              
 highlight! link IncSearch Visual              
 
-highlight! VertSplit guifg=#ff475e guibg=#343b4d
 
 " highlight! BufferVisibleNumber guifg=#b430c1 guibg=#8c98a7 gui=NONE
 
@@ -334,8 +334,9 @@ highlight! DapBreakpoint   guifg=#ff475e guibg=none gui=NONE
 highlight! DapLogPoint   guifg=#f8e7b7 guibg=none gui=NONE
 highlight! DapStopped   guifg=#deade6 guibg=none gui=NONE
 
-hi! WinSeparator guibg=#2e2e2e
+hi! WinSeparator guibg=#171b21
 hi! SnippetTabstop guibg=NONE guifg=#ff00ff
+" hi! VertSplit guifg=#ff475e guibg=#171b21
 
 " highlight! link semshiLocal link Constant
 " highlight! link semshiGlobal Constant
