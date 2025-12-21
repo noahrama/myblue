@@ -355,6 +355,7 @@ hi! SnippetTabstop guibg=NONE guifg=#ff00ff
 highlight! link Function PreProc
 highlight! link cppstructure Constant
 highlight! link cBlock Comment
+highlight! link cmakeGeneratorExpression Operator
 " highlight! link cDefine Constant
 
 sign define semshiError text=E> texthl=semshiErrorSign
