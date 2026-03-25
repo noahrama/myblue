@@ -318,6 +318,7 @@ highlight! DiagnosticLineNrError                 guifg=#bc284f  guibg=#22730    
 
 " markdown
 highlight! link confComment Comment
+highlight! link markdownHeadingDelimiter htmlTitle
 "
 " highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#d5423b gui=NONE
 highlight! RenderMarkdownH1Bg   guifg=#ffffff guibg=#9f312b gui=NONE
