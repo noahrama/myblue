@@ -83,6 +83,7 @@ highlight! link IncSearch Visual
 
 " highlight! BufferVisibleNumber guifg=#b430c1 guibg=#8c98a7 gui=NONE
 
+"barbar
 highlight! BufferVisible guifg=#222730 guibg=#424757 gui=NONE
 highlight! BufferVisibleIndex guifg=#fbf4c6 guibg=#424757 gui=NONE
 highlight! link BufferVisibleMod BufferVisible
@@ -105,13 +106,15 @@ highlight! link BufferAlternateBtn BufferCurrentBtn
 highlight! link BufferAlternateMod BufferCurrentMod
 highlight! link BufferAlternateModBtn BufferCurrentModBtn
 
-highlight! BufferInactive guifg=#222200 guibg=#424757 gui=NONE
-highlight! link BufferInactiveIndex BufferVisibleIndex
-highlight! link BufferInactiveMod BufferInactive
-highlight! link BufferInactiveModBtn BufferVisibleModBtn
-highlight! BufferInactiveCHANGED guifg=#fbf4c6   guibg=#424757 gui=NONE
-highlight! BufferInactiveADDED guifg=#6ab391   guibg=#424757 gui=NONE
-highlight! BufferInactiveDELETED guifg=#b36a8d   guibg=#424757 gui=NONE
+highlight! BufferInactive guifg=#aaaabb guibg=#323747 gui=NONE
+highlight! BufferInactiveIndex guifg=#fbf4c6 guibg=#323747 gui=NONE
+highlight! BufferInactiveBtn guifg=#6d7485 guibg=#323747 gui=NONE
+highlight! BufferInactiveMod guifg=#deade6 guibg=#323747 gui=NONE
+highlight! BufferInactiveModBtn guifg=#fbf4c6   guibg=#323747 gui=NONE
+highlight! BufferInactiveCHANGED guifg=#fbf4c6   guibg=#323747 gui=NONE
+highlight! BufferInactiveADDED guifg=#6ab391   guibg=#323747 gui=NONE
+highlight! BufferInactiveDELETED guifg=#b36a8d   guibg=#323747 gui=NONE
+"highlight! BufferInactiveDELETED guifg=#b36a8d   guibg=#424757 gui=NONE
 
 
 highlight! BufferTabpageFill guibg=#222730
